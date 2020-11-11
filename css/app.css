@@ -1,12 +1,9 @@
 body{
-	font-family: 'Open Sans',sans-serif;	/* background-color: black;;
- */
-	background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
+	font-family: 'Open Sans',sans-serif;
 }
 #container{
 	width: 1000px;
 	height: 550px;
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(cal.jpg);
 	margin: 20px auto;	
 }
 #calculator{
@@ -18,6 +15,10 @@ body{
 	position: relative;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 #result{
 	height: 120px;
